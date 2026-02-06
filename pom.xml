@@ -4,7 +4,7 @@
   <artifactId>learn-automation</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  <!-- 👇 ADD DEPENDENCIES HERE -->
+  <!--  ADD DEPENDENCIES HERE -->
 <dependencies>
 <!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
