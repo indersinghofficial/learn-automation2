@@ -1,5 +1,6 @@
 package com.learn.tests;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.learn.pages.LoginPage;
 
@@ -20,7 +21,7 @@ public class LoginTests extends BaseTest {
 		Logger.info("Entered the username..");
 		loginPage2.enterPassword(password);
 		loginPage2.clickLogin();
-
+		Assert.assertTrue(homePage.isDashboardHeaderDisplayed());
 	}
 
 	@Test(groups = { "Regression" })

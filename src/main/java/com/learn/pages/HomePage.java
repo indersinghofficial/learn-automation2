@@ -16,6 +16,10 @@ public class HomePage {
     public String getDashboardHeader() {
         return driver.findElement(label_dashboardHeader).getText();
     }
+    
+    public boolean isDashboardHeaderDisplayed() {
+    	return driver.findElement(label_dashboardHeader).isDisplayed();
+    }
 
     public String getTitle() {
         return driver.getTitle();
