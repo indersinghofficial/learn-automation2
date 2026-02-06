@@ -1,6 +1,7 @@
 #Maven
 /target/
-#TestNG
+
+#TestNG
 /test-output/
 
 # Eclipse
